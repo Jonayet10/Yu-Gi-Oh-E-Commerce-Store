@@ -222,7 +222,6 @@ main {
 
 .image-section img {
     max-width: 1300px;
-    max-height: 600px;
     height: auto; 
     padding-bottom: 85px;
 }
