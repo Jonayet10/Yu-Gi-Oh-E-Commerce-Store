@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+    Name: Jonayet Lavin
+    CS 132 Spring 2024
+    Date: May 22nd, 2024
+    This is the shop.html page for my Lavin's Yu-Gi-Oh Haven website. It is one of the main page of
+    the e-commerce site, where customers can shop for the card(s) they want.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Lavin's Yu-Gi-Oh Haven - Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="yugioh.js"></script>
+</head>
+<body class="shop-view">
+    <header class="main-header">
+        <h1>Lavin's Yu-Gi-Oh Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="promos.html">Promos</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="all-products">
+            <form id="filter-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="type">Type:</label>
+                <select id="type" name="type">
+                    <option value="">Any</option>
+                    <option value="Normal Monster">Normal Monster</option>
+                    <option value="Effect Monster">Effect Monster</option>
+                    <option value="Synchro Monster">Synchro Monster</option>
+                    <option value="Fusion Monster">Fusion Monster</option>
+                    <option value="XYZ Monster">XYZ Monster</option>
+                    <option value="Spell Card">Spell Card</option>
+                    <option value="Trap Card">Trap Card</option>
+                </select>
+                
+                <label for="level">Level:</label>
+                <input type="text" id="level" name="level">
+
+                <label for="attribute">Attribute:</label>
+                <select id="attribute" name="attribute">
+                    <option value="">Any</option>
+                    <option value="DARK">DARK</option>
+                    <option value="LIGHT">LIGHT</option>
+                    <option value="EARTH">EARTH</option>
+                    <option value="WATER">WATER</option>
+                    <option value="FIRE">FIRE</option>
+                    <option value="WIND">WIND</option>
+                    <option value="DIVINE">DIVINE</option>
+                </select>
+                
+                <label for="archetype">Archetype:</label>
+                <input type="text" id="archetype" name="archetype">
+
+                <button type="submit">Search</button>
+            </form>
+
+            <div id="card-details">
+                <!-- Card details dynamically added here -->
+            </div>
+            
+            <div id="no-cards-message" class="no-cards-message hidden">
+                No cards available for the given search.</div>
+        </section>
+    </main>
+    <footer>
+        <p>Images are cited in the page source. &copy; 2024</p>
+    </footer>
+</body>
+</html>

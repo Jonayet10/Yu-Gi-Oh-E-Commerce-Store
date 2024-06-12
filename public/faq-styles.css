@@ -1,0 +1,29 @@
+/**
+ * Author: Jonayet Lavin
+ * CS 132 Spring 2024
+ * Date: June 4th, 2024
+ * 
+ * This is the faq-styles.css page for my Lavin's Yu-Gi-Oh Haven website. It provides styles for
+ * the FAQ section, ensuring a consistent and visually appealing design that matches the rest of
+ * the website.
+ */
+
+.faq-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.faq-item h3 {
+    margin-top: 0;
+    color: #00466c;
+}
+
+.faq-item p {
+    color: #151414;
+}
+
+#faq-section {
+    padding-bottom: 100px;
+}

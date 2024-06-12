@@ -1,0 +1,260 @@
+/**
+ * Author: Jonayet Lavin
+ * CS 132 Spring 2024
+ * Date: June 4th, 2024
+ * 
+ * This is the styles.css page for my Lavin's Yu-Gi-Oh Haven website. It provides a clean and cons-
+ * istent color scheme and design throughout the entire website.
+ */
+
+body {
+    font-family: 'Libre Caslon Text';
+    background-color: #000000;
+}
+
+body, header h1, nav ul, footer p {
+    margin: 0;
+}
+
+body, nav ul {
+    padding: 0;
+}
+
+footer, #filter-form button {
+    color: #ffffff;
+}
+
+header, footer, .card-container, .no-cards-message {
+    text-align: center;
+}
+
+header #filter-form {
+    margin-bottom: 20px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header, footer {
+    background-color: #00466c;
+}
+
+header h1, footer p {
+    color: rgb(243, 240, 240);
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+#filter-form, #card-details, .description, .image-section {
+    justify-content: center; 
+}
+
+nav ul {
+    padding-top: 20px;
+    list-style: none;
+}
+
+nav ul li, .faq ul li {
+    font-size: 20px;
+}
+nav ul li {
+    margin: 0 20px; 
+}
+
+footer, .card-container img, .image-section img {
+    width: 100%;
+}
+
+footer {
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    bottom: 0;
+}
+
+main, .container, #filter-form, .card-container, nav ul,
+.description, .image-section, .product-details {
+    display: flex;
+}
+
+main, #filter-form {
+    padding: 20px;
+}
+
+.card-container, .card-container, main, .product-details {
+    flex-direction: column;
+}
+
+#filter-form, .description, .image-section, .product-details {
+    align-items: center; 
+}
+
+#filter-form, .card-container, .no-cards-message {
+    border-radius: 8px;
+}
+
+#filter-form, .card-container {
+    background-color: #ffffff;
+}
+
+#filter-form {
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+#filter-form label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#filter-form input[type="text"], #filter-form select, #filter-form button, #card-details, 
+.no-cards-message, .card-container {
+    padding: 10px;
+}
+
+#filter-form input[type="text"], #filter-form select, #filter-form button, .card-container img {
+    border-radius: 4px;
+}
+
+#filter-form input[type="text"], #filter-form select, #filter-form button, .card-container h2 {
+    font-size: 16px;
+}
+
+#filter-form input[type="text"], #filter-form select, .card-container {
+    border: 1px solid #cccccc;
+}
+
+#filter-form button {
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+#filter-form button:hover {
+    background-color: #0056b3;
+}
+
+#card-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+    padding-bottom: 40px;
+}
+
+.card-container h2 {
+    margin: 10px 0;
+}
+
+.card-container h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-container p, footer p {
+    font-size: 14px;
+}
+
+.card-container p {
+    margin: 8px 0;
+    color: #666666;
+}
+
+.product-details h2, .no-cards-message {
+    font-size: 24px;
+}
+
+.no-cards-message {
+    color: red;
+    flex-basis: 100%;
+    border: 2px solid #ff0000;
+    background-color: #ffe6e6;
+}
+
+.visible {
+    display: block !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+main {
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+.description {
+    flex: 0 1 25%; 
+    background-color: #444245;
+}
+
+.description p, .faq ul li {
+    line-height: 1.5;
+}
+
+.description p {
+    font-size: 30px;
+    color: #97cdf3;
+    text-align: justify;
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+.card-container {
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.card-container:hover {
+    background-color: #BEFFC5;
+}
+
+.card-container:active {
+    transform: translate(0px, 2px);
+}
+
+.image-section, .image-section img, .product-details, .no-cards-message {
+    margin-top: 20px;
+}
+
+.image-section img {
+    max-width: 1300px;
+    max-height: 600px;
+    height: auto; 
+    padding-bottom: 85px;
+}
+
+.main-header nav ul li a {
+    color: #f9fbfc; 
+    text-decoration: none; 
+}
+
+.main-header nav ul li a:hover {
+    color: #a2c5eb; 
+}
+
+.product-details img {
+    max-width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description, .product-details img {
+    border-radius: 10px;
+}
+
+.product-details h2 {
+    margin-top: 10px;
+}
+
+.product-details p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+}

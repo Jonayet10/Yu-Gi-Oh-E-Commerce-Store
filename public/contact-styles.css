@@ -1,0 +1,63 @@
+/**
+ * Author: Jonayet Lavin
+ * CS 132 Spring 2024
+ * Date: Jun 4th, 2024
+ * 
+ * This is the contact-styles.css page for my Lavin's Yu-Gi-Oh Haven website. It provides styles for
+ * the contact page, resulting in a clean and user-friendly form layout.
+ */
+
+.contact-form-section {
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.contact-form-section, #contact-form {
+    display: flex;
+}
+
+#contact-form {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#contact-form textarea {
+    min-height: 100px;
+}
+
+#contact-form input, #contact-form textarea, #contact-form button {
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+#form-message {
+    margin-top: 15px;
+}
+
+#contact-form label, #form-messag {
+    font-weight: bold;
+}

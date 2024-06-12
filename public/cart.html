@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+    Name: Jonayet Lavin
+    CS 132 Spring 2024
+    Date: June 3rd, 2024
+    This is the cart.html page for my Lavin's Yu-Gi-Oh Haven website. It presents a cart view for 
+    customers, where they can manage their cart and checkout.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Lavin's Yu-Gi-Oh Haven - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cart-styles.css">
+    <script defer src="yugioh.js"></script>
+</head>
+<body class="cart-view">
+    <header class="main-header">
+        <h1>Lavin's Yu-Gi-Oh Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Cart</h2>
+        <section id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </section>
+        <section id="cart-total">
+            <h3>Total Price: $<span id="total-price">0.00</span></h3>
+            <button id="checkout-button">Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>Images are cited in the page source. &copy; 2024</p>
+    </footer>
+</body>
+</html>

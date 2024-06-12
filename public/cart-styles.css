@@ -1,0 +1,99 @@
+/**
+ * Author: Jonayet Lavin
+ * CS 132 Spring 2024
+ * Date: June 4th, 2024
+ * 
+ * This is the cart-styles.css page for my Lavin's Yu-Gi-Oh Haven website. It provides designs
+ * for the cart items, ensuring a clean and user-friendly interface for managing items in the
+ * shopping cart.
+ */
+
+html, body, .cart-item {
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    justify-content: space-between; 
+}
+
+#cart-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.cart-item {
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+.cart-item img {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.cart-item h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333333;
+}
+
+.cart-item p {
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.cart-item button, #checkout-button, .cart-item img {
+    border-radius: 4px;
+}
+
+.cart-item button {
+    background-color: #ff0000;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.cart-item button:hover {
+    background-color: #cc0000;
+}
+
+#cart-total {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+
+.cart-item button, #checkout-button {
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#checkout-button {
+    background-color: #28a745;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.cart-item button, #cart-total, #checkout-button {
+    color: #ffffff;
+}
+
+#checkout-button:hover {
+    background-color: #218838;
+    transform: translate(0px, 2px);
+}
+
+#checkout-button:active {
+    background-color: #bcf6c9;
+    transform: translate(0px, -2px);
+}
