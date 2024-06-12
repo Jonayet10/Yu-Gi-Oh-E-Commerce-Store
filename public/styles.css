@@ -182,7 +182,6 @@ main, #filter-form {
 }
 
 main {
-    height: 100vh;
     justify-content: flex-start;
 }
 
