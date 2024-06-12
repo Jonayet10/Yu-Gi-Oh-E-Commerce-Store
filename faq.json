@@ -2,12 +2,12 @@
     { "question": "How do I buy a card?", "answer": "Simply browse our shop and click on the card you want, which sends it to your cart." },
     { "question": "What type of Yu-Gi-Oh cards do you sell?", "answer": "We specialize in selling individual Yu-Gi-Oh cards, all PSA10." },
     { "question": "What is the rarity of the cards you sell?", "answer": "Check out the rarity of our cards in the 'Product' page." },
-    { "question": "How can I track my order?", "answer": "Once your order has been placed, we will send you a confirmation email with your tracking number via email." },
+    { "question": "How can I track my order?", "answer": "Once your order has been placed, we will send you a confirmation email with your tracking number." },
     { "question": "What payment methods do you accept?", "answer": "We accept all major credit cards and PayPal." },
     { "question": "Do you offer international shipping?", "answer": "Yes, we ship globally, and shipping costs and times vary depending on the destination." },
     { "question": "Can I return a card?", "answer": "Yes, returns are accepted if the item was received damaged. In this case, please contact us immediately with a photo of the damage and we willl arrange for a return and replacement or refund." },
     { "question": "How do I contact customer support?", "answer": "You can contact us via the contact form on the 'Contact Us' page." },
-    { "question": "How do I duel (any questions regarding duel mechanics)?", "answer": "Click on our Dueling Rulebook page, which will take you to the official Yu-Gi-Oh website rulebook and beginner's guide." },
+    { "question": "How do I duel (any questions regarding duel mechanics)?", "answer": "Click on our 'Dueling Rulebook' page, which will take you to the official Yu-Gi-Oh website rulebook and beginner's guide." },
     { "question": "I found a card in the shop but don't know what its archetype is, how do I find this out?", "answer": "Check out our 'Product' page, and search the name of the card." },
     { "question": "How do I know what effect a spell/trap or effect monster card has?", "answer": "Check out our 'Product' page, where you can read the card's description in detail." }
 ]
